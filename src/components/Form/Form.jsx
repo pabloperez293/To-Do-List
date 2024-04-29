@@ -17,7 +17,7 @@ const Form = ({ createTodo }) => {
         onChange={(evt) => setValue(evt.target.value)}
         value={value}
       />
-      <button className='bg-gray-700 border-none p-2 text-white cursor-pointer rounded ml-2'>
+      <button className='bg-primary border-none p-2 text-white cursor-pointer rounded ml-2 hover:bg-secondary'>
         Agregar Tarea
       </button>
     </form>

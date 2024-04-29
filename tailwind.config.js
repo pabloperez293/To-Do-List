@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#4299E1",
-        secondary: "#E53E3E",
+        primary: "#0993BC",
+        secondary: "#FF1633",
       },
       container: {
         center: true,
@@ -20,7 +20,7 @@ export default {
         },
       },
       fontFamily:{
-        primary: "Montserrat",
+        jersey:['Jersey 15', 'sans-serif'],
       }
     },
   },
