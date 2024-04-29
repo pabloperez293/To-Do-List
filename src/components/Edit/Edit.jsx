@@ -5,7 +5,7 @@ const Edit = ({ editTodo, task }) => {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    createTodo(value, task.id);
+    editTodo(value, task.id);
     setValue("");
   };
   return (
